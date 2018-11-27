@@ -94,6 +94,12 @@ var nums = [1,2,3,6,22,98,45,23,22,12];
 
 //Code Here
 
+function evenFinder(nums){
+let filtered = nums.filter(function(number){
+		return number % 2 === 0;
+});	
+return filtered
+}
 
 
 
